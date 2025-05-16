@@ -1,6 +1,6 @@
 # projectname
 
-Проект **projectname** — это backend-приложение, разработанное с использованием FastAPI, SQLAlchemy, MinIO и Dishka (внедрение зависимостей).
+Проект **projectname** — это backend-приложение, разработанное с использованием FastAPI, SQLAlchemy и Dishka (внедрение зависимостей).
 Он спроектирован с чистой архитектурой, акцентом на модульность и тестируемость компонентов.
 
 ---
@@ -9,7 +9,6 @@
 
 - **FastAPI** — асинхронный веб-фреймворк для создания REST API
 - **SQLAlchemy** — ORM для работы с PostgreSQL
-- **MinIO** — объектное хранилище для хранения видео
 - **Dishka** — библиотека для внедрения зависимостей
 - **Pytest** — фреймворк для тестирования
 
@@ -59,7 +58,7 @@ class Config(BaseModel):
     postgres: PostgresConfig
     fastapi: FastApiConfig
     jwt: JWTConfig
-    minio: MinioConfig
+  
 ```
 
 Каждая секция конфигурируется через переменные окружения. Пример `.env`:
