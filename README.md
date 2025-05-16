@@ -36,9 +36,6 @@ projectname/
 │           │   │   ├── exceptions.py
 │           │   │   ├── models.py
 │           │   │   └── repositories.py
-│           │   ├── file_storage/
-│           │   │   ├── file_storage.py
-│           │   │   └── exceptions.py
 │           ├── config.py             # Конфигурация FastAPI, PostgreSQL, JWT и MinIO
 │           ├── ioc.py                # DI-контейнеры Dishka
 │           ├── main.py               # Точка входа FastAPI
